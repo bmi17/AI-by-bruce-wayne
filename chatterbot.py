@@ -1,3 +1,5 @@
+#  Develop an elementary chatbot for any suitable customer interaction application
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 chatbot = ChatBot('MyChatBot')
@@ -14,4 +16,3 @@ print(response)
 
 
 
-#sanu's old code
