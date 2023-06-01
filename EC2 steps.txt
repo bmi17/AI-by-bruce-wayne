@@ -1,0 +1,31 @@
+first 
+windows vm
+1. Launch instance 
+3. select windows
+2. create key pair RSA PEM
+3. Launch , view all instances
+4. copy public ip
+5.select instace clikc connect
+6. RDP client
+7. search for RDP in local machine i.e. your machine click on windows and search RDP
+8.paste copied public ip , clikc on show options
+9.copy username from aws and paste there
+10. decrypt password on aws using PEM key downloaded in step 2 and paste there
+
+
+second
+ubutnu vm
+1. Launch instance 
+2. select windows
+3. create key pair RSA PPK
+4. Launch , view all instances
+5. copy public ip
+6. download putty
+7. session >> paste ip there 
+8.loggin >> select SSH package (in session loggin session ha)
+9.connection >> data>> auto login username kahihi taka
+10.connection>>SSH>>Auth>>credentials->private key file for auth->select the file downloaded in step 3
+ python --version //to check python version
+python3 to run python
+print("Hello, world!") //this is one line code and it will be executed when press entered
+exit() or Ctrl + D // to exit python
