@@ -1,3 +1,7 @@
+# Implement a solution for a Constraint Satisfaction Problem using Branch and Bound and 
+# Backtracking for n-queens problem or a graph coloring problem
+
+
 """ Python3 program to solve N Queen Problem
 using Branch or Bound """
 
